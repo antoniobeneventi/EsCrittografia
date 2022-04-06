@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>crittografia</title> 
+    </head>
+    <body style="text-align: center;">
+        <h1>crittografia</h1>
+        <br>
+        <br>
+        <p><b>Inserire il ; tra le chiavi per inserirne altre</b></p>
+        <br>
+        <p>inserire testo da voler cifrare</p>
+        <input type="text" id="testoinchiaro"  placeholder="testo da cifrare"><input type="text" id="chiavi" placeholder="00;00;00...">
+        <button type="button" value="cifra" id="cifra" onclick="crittografia()">Cifra la frase</button>
+        <br>
+        <br>
+        Testo cifrato:<p id="testocifrato"></p>
+        Testo decifrato:<p id="testodecifrato"></p>
+
+        <script src="js.js"></script>
+    </body>
+</html>
